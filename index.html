@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Discord Server Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+
+        h1 {
+            color: #7289DA; /* Discord brand color */
+        }
+
+        form {
+            background-color: #ffffff;
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="email"] {
+            width:fit-content;
+            padding: 10px;
+            padding-left: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #7289DA;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #6272A4; /* Slightly darker shade of Discord brand color on hover */
+        }
+        footer {
+          margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Discord Server Application</h1>
+    <p>Please fill out the following information to apply to Arcanist Marauders Discord server.</p>
+
+    <form  action="https://formsubmit.co/d688def329f3e5212538a680e80fede8" method="POST">
+        <label for="discordUsername">Discord Username:</label>
+        <input type="text" id="discordUsername" name="discordUsername" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required>
+
+        <label for="preferredNickname">Preferred Nickname:</label>
+        <input type="text" id="preferredNickname" name="preferredNickname" required>
+
+        <label for="emailAddress">Email Address:</label>
+        <input type="email" id="emailAddress" name="emailAddress" required>
+
+        <input type="submit" value="Submit Application">
+
+    </form>
+    <footer>
+      &copy; Moderator Application by Noth
+  </footer>
+</body>
+</html>
